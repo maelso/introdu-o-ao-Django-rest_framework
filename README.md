@@ -11,7 +11,9 @@ Put;
 Delete;
 http://127.0.0.1:8000/api/task/1 
 
+http://127.0.0.1:8000/ => lista as tasks com templates
 
-Python 3.4
-Django 1.10.5
-djangorestframework 3.5.3
+Configuração:
+- Python 3.4
+- Django 1.10.5
+- djangorestframework 3.5.3
