@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+{% for task in task %}
+	<h4>ID: {{task.id}}</h4>
+	<h4>Título: {{task.title}}</h4>
+	<h4>Descrição: {{task.description}}</h4>
+	<h4>Criada em: {{task.date_created}}</h4>
+	<h4>Atualizada em: {{task.date_updated}}</h4>
+	<h4>Grupo: {{task.group}}</h4>
+	<br>
+{% endfor %}
+</body>
+</html>
