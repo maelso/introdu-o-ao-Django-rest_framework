@@ -9,7 +9,7 @@ Get - listar todas as Tasks: http://127.0.0.1:8000/api/tasks/
 Get pelo id;
 Put;
 Delete;
-http://127.0.0.1:8000/api/task/1 
+http://127.0.0.1:8000/api/task/id 
 
 http://127.0.0.1:8000/ => lista as tasks com templates
 
